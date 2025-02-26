@@ -58,7 +58,7 @@ users[1].email;
 const course = {
   coursename: "js in hindi",
   price: "999",
-  courseInstructor: "hitesh",
+  courseInstructor: "afzal",
 };
 
 // console.log(course.courseInstructor)
@@ -73,7 +73,7 @@ console.log(P);
 // for short hand property names
 
 // {
-//     "name": "hitesh",
+//     "name": "afzal",
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
