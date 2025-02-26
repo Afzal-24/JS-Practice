@@ -53,7 +53,6 @@ users[1].email;
 
 // console.log(Object.values(tinderUser));
 
-
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 const course = {
@@ -67,13 +66,11 @@ const course = {
 // console.log(course.price);
 
 // instead of using above method to access object properties everytime with dot, we can use destructuring
-const {courseInstructor: instructor, coursename: name, price: P} = course;
+const { courseInstructor: instructor, coursename: name, price: P } = course;
 console.log(instructor);
 console.log(name);
 console.log(P);
 // for short hand property names
-
-
 
 // {
 //     "name": "hitesh",
