@@ -43,7 +43,7 @@ const chai = () => {
 
 const addTwo = (num1, num2) => ({ username: "afzal" });
 
-console.log(addTwo(3, 4));
+console.log(addTwo(4, 2));
 
 // const myArray = [2, 5, 3, 7, 8]
 
