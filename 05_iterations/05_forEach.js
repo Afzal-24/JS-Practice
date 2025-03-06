@@ -34,6 +34,5 @@ const myCoding = [
 ];
 
 myCoding.forEach((item) => {
-    console.log(item.languageName, item.languageFileName);
-    
-} )
+  console.log(item.languageName, item.languageFileName);
+});
