@@ -13,12 +13,12 @@ form.addEventListener("submit", function (e) {
 
   // Validation checks
   if (isNaN(height) || height <= 0) {
-    results.innerHTML = `⚠️ Please enter a valid height.`;
+    results.innerHTML = `Please enter a valid height.`;
     results.classList.add("show-results");
     return;
   }
   if (isNaN(weight) || weight <= 0) {
-    results.innerHTML = `⚠️ Please enter a valid weight.`;
+    results.innerHTML = `Please enter a valid weight.`;
     results.classList.add("show-results");
     return;
   }
