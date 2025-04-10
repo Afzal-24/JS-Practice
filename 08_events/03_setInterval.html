@@ -17,10 +17,13 @@
 
     let intervalId;
     document.querySelector("#start").addEventListener("click", function () {
-      intervalId = setInterval(sayDate, 2000, "hi");
+      if (!intervalId) {
+        intervalId = setInterval(sayDate, 1000, "hi");
+      }
     });
     document.querySelector("#stop").addEventListener("click", function () {
       clearInterval(intervalId);
+      intervalId = null;
     });
   </script>
 </html>
